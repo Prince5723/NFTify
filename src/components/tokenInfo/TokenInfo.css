@@ -1,0 +1,32 @@
+
+.box{
+    background-color: rgba(57, 5, 84, 1);
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.8;
+    width: 245px;
+    height: 139px;
+    
+    
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 35px;
+}
+
+.container h2{
+    margin-bottom: 15px;
+}
+
+.info{
+    display: flex;
+}
+
+.container1{
+    display: flex;
+}
+.right{
+    margin-left: 27px;
+}

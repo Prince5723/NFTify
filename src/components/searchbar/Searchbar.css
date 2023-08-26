@@ -1,0 +1,30 @@
+.search-bar {
+    position: absolute;
+    top: 27px;
+    left: 353px;
+    color: white;
+
+}
+
+.search-bar input {
+    width: 271px;
+    height: 23px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    padding: 7px;
+    box-sizing: content-box;
+    background: transparent;
+    color: white;
+        
+}
+
+.search-bar input::placeholder {
+    color: white; /* Change to your desired color */
+  }
+
+  .search-btn{
+    position: absolute;
+    top: 9px;
+    left: 253px;
+
+  }

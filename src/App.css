@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    height: 100vh;
+    width: 100vw;
+    background: url("./assets/bgImage.svg") no-repeat right;
+    background-color: rgba(0, 0, 0, 0.57);
+    background-blend-mode: multiply;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.side-bar {
+    height: 100vh;
+    width: 13rem;
+    position: absolute;
+    left: 0;
+    background-color: rgba(41, 41, 41, 1);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+    flex-direction: column;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 32px;
+
+}
+
+.logo {
+    padding: 0rem .2rem;
+}
+
+.textLogo {
+    padding: 0rem .2rem;
+}
+
+.nav-token {
+    display: flex;
+    margin: -15px 32px;
+    gap: 11px;
+}
+
+.nav-token:hover {
+    background-color: rgba(243, 0, 80, 1);
+    ;
+}
+
+.pair-add {
+    display: flex;
+    margin: 35px 36px;
+    gap: 11px;
+}
+
+.pair-add:hover {
+    background-color: rgba(243, 0, 80, 1);
+}
+
+
+
+  .connect-btn{
+    position: absolute;
+    top: 27px;
+    right: 50px;
+    color: white;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  .connect-btn button{
+    width: 153px;
+    height: 41px;
+    border: 2px solid #7C0F35;
+    border-radius: 23px;
+    color: white;
+    background: linear-gradient(95.24deg, #7C0F35 7.59%, #581266 104.01%);
+    outline: none;
+  box-shadow: none;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+
+  .tokenInfo{
+    position: absolute;
+    left: 250px;
+    color: white;
+    top: 103px;
   }
-}
